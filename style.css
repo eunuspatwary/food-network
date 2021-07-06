@@ -7,7 +7,7 @@ h1{
 .orange-color{
     color: orange;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 50px;
     
@@ -15,7 +15,7 @@ section{
 }
 .half-width{
     width: 50%;
-     padding: 8%;
+     padding: 5%;
 }
 .half-width img{
     width: 80%;
@@ -31,4 +31,34 @@ section{
 .about-me{
     background-image: url(7.png);
     background-repeat: no-repeat;
+}
+.my-racipies{
+    text-align: center;
+}
+.recipie-item{
+    width: 70%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding:3%;
+    box-shadow: 5px 5px 20px rgb(179, 157, 157);
+    border-radius: 10%;
+}
+.recipie-item img{
+   width: 100%;
+} 
+.most-popular{
+    display:flex;
+}
+footer{
+    text-align: center; 
+    background-color: black; 
+    color: white;
+    font-weight: 300;
+    padding: 10px 30px;
+}
+.orange-color{
+    color: orange;
+}
+.white-color{
+    color:rgba(172, 158, 158, 0.719);
 }
