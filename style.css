@@ -49,6 +49,14 @@ h1{
 .most-popular{
     display:flex;
     flex-direction: row;
+    position: relative;
+    left: 30%;
+    top: 10%;
+    width: 600px;
+    height: 250px;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
 
 }
 footer{
@@ -63,4 +71,7 @@ footer{
 }
 .white-color{
     color:rgba(172, 158, 158, 0.719);
+}
+#for-image{
+    height:535px ;
 }
