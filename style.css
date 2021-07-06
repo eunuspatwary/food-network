@@ -48,6 +48,8 @@ h1{
 } 
 .most-popular{
     display:flex;
+    flex-direction: row;
+
 }
 footer{
     text-align: center; 
